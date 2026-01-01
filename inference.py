@@ -119,7 +119,7 @@ def generate_sql(model, tokenizer, question, table, max_len=128, max_decode_len=
 class SqlInference:
     def __init__(self, model_path=None, tokenizer_name=None, max_len=None, max_decode_len=None):
         self.model = load_model(model_path)
-        self.tokenizer = T5Tokenizer.from_pretrained(tokenizer_name or DEFAULT_TOKENIZER)
+        self.tokenizer = T5Tokenizer.from_pretrained(DEFAULT_TOKENIZER)
         self.max_len = max_len or DEFAULT_MAX_LEN
         self.max_decode_len = max_decode_len or DEFAULT_MAX_DECODE_LEN
 
