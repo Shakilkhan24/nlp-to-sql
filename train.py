@@ -28,7 +28,7 @@ ignore_index = model_cfg['ignore_index']
 warmup_steps = training_cfg['warmup_steps']
 label_smoothing = training_cfg['label_smoothing']
 
-checkpoint_path = Path(paths_cfg.get("checkpoint", "transformer_model.pt"))
+checkpoint_path = Path(paths_cfg.get("checkpoint", "transformer_model_final.pt"))
 if not checkpoint_path.is_absolute():
     checkpoint_path = BASE_DIR / checkpoint_path
 
@@ -59,8 +59,8 @@ d_ff = model_cfg['d_ff']
 max_len = model_cfg['max_len']
 
 
-# Create new model
-print("Creating new model...")
+# initialize the model 
+print("initializing the model after setting up the configurations ...")
 model = Transformer(
     vocab_size=vocab_size, 
     d_model=d_model, 

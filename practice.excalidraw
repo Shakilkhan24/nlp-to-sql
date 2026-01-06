@@ -44,7 +44,7 @@
       "id": "TLaLb9RMRLPoF41fp0u_k",
       "type": "image",
       "x": 155.30649931207665,
-      "y": 81.81736996807626,
+      "y": 82.61735776104501,
       "width": 555.0265887781904,
       "height": 695.4962809998311,
       "angle": 0,
@@ -60,8 +60,8 @@
       "index": "a5",
       "roundness": null,
       "seed": 1600204798,
-      "version": 299,
-      "versionNonce": 795699359,
+      "version": 300,
+      "versionNonce": 1449191233,
       "isDeleted": false,
       "boundElements": [
         {
@@ -69,7 +69,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1764929346613,
+      "updated": 1767717836873,
       "link": null,
       "locked": false,
       "status": "pending",
@@ -125,10 +125,10 @@
     {
       "id": "d5Fhh2pRxdU_6F4J6AorG",
       "type": "arrow",
-      "x": 405.536723966386,
-      "y": 784.117357761045,
-      "width": 1.7600061854365663,
-      "height": 216.54416106099006,
+      "x": 410.0848924510317,
+      "y": 784.9173455540138,
+      "width": 2.794886107557943,
+      "height": 215.7441732680213,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -144,11 +144,11 @@
         "type": 2
       },
       "seed": 119530366,
-      "version": 325,
-      "versionNonce": 1880423615,
+      "version": 326,
+      "versionNonce": 186930977,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1764929346615,
+      "updated": 1767717836875,
       "link": null,
       "locked": false,
       "points": [
@@ -157,8 +157,8 @@
           0
         ],
         [
-          1.7600061854365663,
-          216.54416106099006
+          -2.794886107557943,
+          215.7441732680213
         ]
       ],
       "lastCommittedPoint": null,
@@ -823,7 +823,7 @@
       "version": 94,
       "versionNonce": 1583888337,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1764929189166,
       "link": null,
       "locked": false,
@@ -858,7 +858,7 @@
       "version": 9,
       "versionNonce": 74616735,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1764929182775,
       "link": null,
       "locked": false,
@@ -901,6 +901,43 @@
       "updated": 1764929345349,
       "link": null,
       "locked": false
+    },
+    {
+      "id": "Ic_rBz0maL7CC_xAuSg8X",
+      "type": "text",
+      "x": 126.01980590820312,
+      "y": 3867.6000061035156,
+      "width": 924.1591796875,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aV",
+      "roundness": null,
+      "seed": 201849695,
+      "version": 3,
+      "versionNonce": 1855582111,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1767290415599,
+      "link": null,
+      "locked": false,
+      "text": "https://wandb.ai/shakil_khan_team/transformer-sql-fixed/runs/ainf2xbf?nw=nwusersk2448868",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "https://wandb.ai/shakil_khan_team/transformer-sql-fixed/runs/ainf2xbf?nw=nwusersk2448868",
+      "autoResize": true,
+      "lineHeight": 1.25
     }
   ],
   "appState": {

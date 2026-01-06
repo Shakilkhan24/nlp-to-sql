@@ -1,0 +1,384 @@
+
+the device is:  cuda
+Total trainable parameters: 27,475,200
+Training for 15 epochs
+
+Epoch 1/15 | Batch 100/1762 | Loss: 6.8723 | Avg: 8.7014 | LR: 0.000050 | GradNorm: 2.3161
+Epoch 1/15 | Batch 200/1762 | Loss: 4.9663 | Avg: 7.2090 | LR: 0.000100 | GradNorm: 1.1280
+Epoch 1/15 | Batch 300/1762 | Loss: 4.4321 | Avg: 6.3402 | LR: 0.000150 | GradNorm: 1.0026
+Epoch 1/15 | Batch 400/1762 | Loss: 4.4117 | Avg: 5.8302 | LR: 0.000200 | GradNorm: 1.2768
+Epoch 1/15 | Batch 500/1762 | Loss: 4.1151 | Avg: 5.4972 | LR: 0.000250 | GradNorm: 1.0754
+Epoch 1/15 | Batch 600/1762 | Loss: 4.1385 | Avg: 5.2492 | LR: 0.000300 | GradNorm: 1.2043
+Epoch 1/15 | Batch 700/1762 | Loss: 3.9075 | Avg: 5.0565 | LR: 0.000350 | GradNorm: 1.4162
+Epoch 1/15 | Batch 800/1762 | Loss: 3.8059 | Avg: 4.8988 | LR: 0.000400 | GradNorm: 1.2201
+Epoch 1/15 | Batch 900/1762 | Loss: 3.7097 | Avg: 4.7667 | LR: 0.000450 | GradNorm: 1.3262
+Epoch 1/15 | Batch 1000/1762 | Loss: 3.5300 | Avg: 4.6544 | LR: 0.000500 | GradNorm: 1.2196
+Epoch 1/15 | Batch 1100/1762 | Loss: 3.4956 | Avg: 4.5533 | LR: 0.000500 | GradNorm: 1.7455
+Epoch 1/15 | Batch 1200/1762 | Loss: 3.3247 | Avg: 4.4654 | LR: 0.000500 | GradNorm: 1.1811
+Epoch 1/15 | Batch 1300/1762 | Loss: 3.2939 | Avg: 4.3857 | LR: 0.000500 | GradNorm: 1.1949
+Epoch 1/15 | Batch 1400/1762 | Loss: 3.1201 | Avg: 4.3156 | LR: 0.000500 | GradNorm: 1.2227
+Epoch 1/15 | Batch 1500/1762 | Loss: 3.4092 | Avg: 4.2504 | LR: 0.000500 | GradNorm: 1.3437
+Epoch 1/15 | Batch 1600/1762 | Loss: 3.4178 | Avg: 4.1904 | LR: 0.000500 | GradNorm: 1.3206
+Epoch 1/15 | Batch 1700/1762 | Loss: 3.3166 | Avg: 4.1348 | LR: 0.000500 | GradNorm: 1.4160
+
+============================================================
+Epoch 1/15 | Average Loss: 4.1025
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 2/15 | Batch 100/1762 | Loss: 3.4916 | Avg: 3.1463 | LR: 0.000500 | GradNorm: 1.2977
+Epoch 2/15 | Batch 200/1762 | Loss: 3.0612 | Avg: 3.1400 | LR: 0.000500 | GradNorm: 1.5617
+Epoch 2/15 | Batch 300/1762 | Loss: 2.8569 | Avg: 3.1230 | LR: 0.000500 | GradNorm: 1.5351
+Epoch 2/15 | Batch 400/1762 | Loss: 3.0525 | Avg: 3.1057 | LR: 0.000500 | GradNorm: 1.9705
+Epoch 2/15 | Batch 500/1762 | Loss: 2.9928 | Avg: 3.0962 | LR: 0.000500 | GradNorm: 1.3949
+Epoch 2/15 | Batch 600/1762 | Loss: 3.0530 | Avg: 3.0875 | LR: 0.000500 | GradNorm: 1.2644
+Epoch 2/15 | Batch 700/1762 | Loss: 3.2409 | Avg: 3.0742 | LR: 0.000500 | GradNorm: 1.4954
+Epoch 2/15 | Batch 800/1762 | Loss: 2.9071 | Avg: 3.0681 | LR: 0.000500 | GradNorm: 2.1624
+Epoch 2/15 | Batch 900/1762 | Loss: 2.8670 | Avg: 3.0609 | LR: 0.000500 | GradNorm: 1.4487
+Epoch 2/15 | Batch 1000/1762 | Loss: 3.2070 | Avg: 3.0510 | LR: 0.000500 | GradNorm: 1.5649
+Epoch 2/15 | Batch 1100/1762 | Loss: 2.8790 | Avg: 3.0431 | LR: 0.000500 | GradNorm: 1.4059
+Epoch 2/15 | Batch 1200/1762 | Loss: 3.1030 | Avg: 3.0326 | LR: 0.000500 | GradNorm: 1.4971
+Epoch 2/15 | Batch 1300/1762 | Loss: 2.7564 | Avg: 3.0236 | LR: 0.000500 | GradNorm: 1.3056
+Epoch 2/15 | Batch 1400/1762 | Loss: 3.0244 | Avg: 3.0155 | LR: 0.000500 | GradNorm: 1.3269
+Epoch 2/15 | Batch 1500/1762 | Loss: 2.7222 | Avg: 3.0081 | LR: 0.000500 | GradNorm: 1.7055
+Epoch 2/15 | Batch 1600/1762 | Loss: 2.5962 | Avg: 3.0000 | LR: 0.000500 | GradNorm: 1.3613
+Epoch 2/15 | Batch 1700/1762 | Loss: 2.7772 | Avg: 2.9921 | LR: 0.000500 | GradNorm: 1.6645
+
+============================================================
+Epoch 2/15 | Average Loss: 2.9880
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 3/15 | Batch 100/1762 | Loss: 2.6140 | Avg: 2.7290 | LR: 0.000500 | GradNorm: 1.4089
+Epoch 3/15 | Batch 200/1762 | Loss: 2.4972 | Avg: 2.7267 | LR: 0.000500 | GradNorm: 1.2056
+Epoch 3/15 | Batch 300/1762 | Loss: 2.8426 | Avg: 2.7242 | LR: 0.000500 | GradNorm: 1.6318
+Epoch 3/15 | Batch 400/1762 | Loss: 2.8101 | Avg: 2.7225 | LR: 0.000500 | GradNorm: 1.4014
+Epoch 3/15 | Batch 500/1762 | Loss: 2.7824 | Avg: 2.7234 | LR: 0.000500 | GradNorm: 1.3008
+Epoch 3/15 | Batch 600/1762 | Loss: 2.4874 | Avg: 2.7213 | LR: 0.000500 | GradNorm: 1.2430
+Epoch 3/15 | Batch 700/1762 | Loss: 2.8661 | Avg: 2.7202 | LR: 0.000500 | GradNorm: 1.4499
+Epoch 3/15 | Batch 800/1762 | Loss: 2.6054 | Avg: 2.7154 | LR: 0.000500 | GradNorm: 1.7378
+Epoch 3/15 | Batch 900/1762 | Loss: 2.6516 | Avg: 2.7145 | LR: 0.000500 | GradNorm: 1.7502
+Epoch 3/15 | Batch 1000/1762 | Loss: 2.6759 | Avg: 2.7144 | LR: 0.000500 | GradNorm: 1.4347
+Epoch 3/15 | Batch 1100/1762 | Loss: 2.5129 | Avg: 2.7128 | LR: 0.000500 | GradNorm: 1.3292
+Epoch 3/15 | Batch 1200/1762 | Loss: 2.6240 | Avg: 2.7106 | LR: 0.000500 | GradNorm: 1.5730
+Epoch 3/15 | Batch 1300/1762 | Loss: 2.9512 | Avg: 2.7081 | LR: 0.000500 | GradNorm: 1.3587
+Epoch 3/15 | Batch 1400/1762 | Loss: 2.9079 | Avg: 2.7073 | LR: 0.000500 | GradNorm: 1.5321
+Epoch 3/15 | Batch 1500/1762 | Loss: 2.5520 | Avg: 2.7053 | LR: 0.000500 | GradNorm: 1.3543
+Epoch 3/15 | Batch 1600/1762 | Loss: 2.4903 | Avg: 2.7017 | LR: 0.000500 | GradNorm: 1.2833
+Epoch 3/15 | Batch 1700/1762 | Loss: 2.4920 | Avg: 2.6989 | LR: 0.000500 | GradNorm: 2.1923
+
+============================================================
+Epoch 3/15 | Average Loss: 2.6967
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 4/15 | Batch 100/1762 | Loss: 2.4739 | Avg: 2.5160 | LR: 0.000500 | GradNorm: 1.7444
+Epoch 4/15 | Batch 200/1762 | Loss: 2.7552 | Avg: 2.5204 | LR: 0.000500 | GradNorm: 1.6352
+Epoch 4/15 | Batch 300/1762 | Loss: 2.5967 | Avg: 2.5230 | LR: 0.000500 | GradNorm: 1.5342
+Epoch 4/15 | Batch 400/1762 | Loss: 2.3987 | Avg: 2.5198 | LR: 0.000500 | GradNorm: 1.7044
+Epoch 4/15 | Batch 500/1762 | Loss: 2.4517 | Avg: 2.5192 | LR: 0.000500 | GradNorm: 1.6593
+Epoch 4/15 | Batch 600/1762 | Loss: 2.4958 | Avg: 2.5212 | LR: 0.000500 | GradNorm: 1.3731
+Epoch 4/15 | Batch 700/1762 | Loss: 2.4184 | Avg: 2.5217 | LR: 0.000500 | GradNorm: 1.5386
+Epoch 4/15 | Batch 800/1762 | Loss: 2.6866 | Avg: 2.5240 | LR: 0.000500 | GradNorm: 1.9091
+Epoch 4/15 | Batch 900/1762 | Loss: 2.5048 | Avg: 2.5250 | LR: 0.000500 | GradNorm: 1.3437
+Epoch 4/15 | Batch 1000/1762 | Loss: 2.6337 | Avg: 2.5249 | LR: 0.000500 | GradNorm: 1.7623
+Epoch 4/15 | Batch 1100/1762 | Loss: 2.4592 | Avg: 2.5247 | LR: 0.000500 | GradNorm: 1.2442
+Epoch 4/15 | Batch 1200/1762 | Loss: 2.2266 | Avg: 2.5236 | LR: 0.000500 | GradNorm: 1.3145
+Epoch 4/15 | Batch 1300/1762 | Loss: 2.6788 | Avg: 2.5234 | LR: 0.000500 | GradNorm: 1.4876
+Epoch 4/15 | Batch 1400/1762 | Loss: 2.4040 | Avg: 2.5225 | LR: 0.000500 | GradNorm: 1.5504
+Epoch 4/15 | Batch 1500/1762 | Loss: 2.5160 | Avg: 2.5222 | LR: 0.000500 | GradNorm: 1.9323
+Epoch 4/15 | Batch 1600/1762 | Loss: 2.5452 | Avg: 2.5220 | LR: 0.000500 | GradNorm: 1.6294
+Epoch 4/15 | Batch 1700/1762 | Loss: 2.5641 | Avg: 2.5218 | LR: 0.000500 | GradNorm: 1.3618
+
+============================================================
+Epoch 4/15 | Average Loss: 2.5219
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 5/15 | Batch 100/1762 | Loss: 2.3250 | Avg: 2.3706 | LR: 0.000500 | GradNorm: 1.4011
+Epoch 5/15 | Batch 200/1762 | Loss: 2.2723 | Avg: 2.3696 | LR: 0.000500 | GradNorm: 1.2924
+Epoch 5/15 | Batch 300/1762 | Loss: 2.3351 | Avg: 2.3733 | LR: 0.000500 | GradNorm: 1.2865
+Epoch 5/15 | Batch 400/1762 | Loss: 2.3754 | Avg: 2.3785 | LR: 0.000500 | GradNorm: 1.3603
+Epoch 5/15 | Batch 500/1762 | Loss: 2.2958 | Avg: 2.3816 | LR: 0.000500 | GradNorm: 1.5724
+Epoch 5/15 | Batch 600/1762 | Loss: 2.3906 | Avg: 2.3848 | LR: 0.000500 | GradNorm: 2.0573
+Epoch 5/15 | Batch 700/1762 | Loss: 2.3082 | Avg: 2.3875 | LR: 0.000500 | GradNorm: 1.3742
+Epoch 5/15 | Batch 800/1762 | Loss: 2.3621 | Avg: 2.3905 | LR: 0.000500 | GradNorm: 1.2775
+Epoch 5/15 | Batch 900/1762 | Loss: 2.3493 | Avg: 2.3928 | LR: 0.000500 | GradNorm: 1.4602
+Epoch 5/15 | Batch 1000/1762 | Loss: 2.4670 | Avg: 2.3929 | LR: 0.000500 | GradNorm: 1.4167
+Epoch 5/15 | Batch 1100/1762 | Loss: 2.4942 | Avg: 2.3955 | LR: 0.000500 | GradNorm: 1.3156
+Epoch 5/15 | Batch 1200/1762 | Loss: 2.3440 | Avg: 2.3967 | LR: 0.000500 | GradNorm: 1.9978
+Epoch 5/15 | Batch 1300/1762 | Loss: 2.5398 | Avg: 2.3975 | LR: 0.000500 | GradNorm: 1.5247
+Epoch 5/15 | Batch 1400/1762 | Loss: 2.2425 | Avg: 2.3977 | LR: 0.000500 | GradNorm: 1.2119
+Epoch 5/15 | Batch 1500/1762 | Loss: 2.5145 | Avg: 2.3987 | LR: 0.000500 | GradNorm: 1.4383
+Epoch 5/15 | Batch 1600/1762 | Loss: 2.2994 | Avg: 2.3998 | LR: 0.000500 | GradNorm: 1.3673
+Epoch 5/15 | Batch 1700/1762 | Loss: 2.1367 | Avg: 2.4005 | LR: 0.000500 | GradNorm: 1.4044
+
+============================================================
+Epoch 5/15 | Average Loss: 2.4008
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 6/15 | Batch 100/1762 | Loss: 2.1397 | Avg: 2.2722 | LR: 0.000500 | GradNorm: 1.9035
+Epoch 6/15 | Batch 200/1762 | Loss: 2.2305 | Avg: 2.2671 | LR: 0.000500 | GradNorm: 1.2293
+Epoch 6/15 | Batch 300/1762 | Loss: 2.2721 | Avg: 2.2760 | LR: 0.000500 | GradNorm: 1.2354
+Epoch 6/15 | Batch 400/1762 | Loss: 2.3508 | Avg: 2.2830 | LR: 0.000500 | GradNorm: 1.7525
+Epoch 6/15 | Batch 500/1762 | Loss: 2.2009 | Avg: 2.2847 | LR: 0.000500 | GradNorm: 1.2667
+Epoch 6/15 | Batch 600/1762 | Loss: 2.3655 | Avg: 2.2887 | LR: 0.000500 | GradNorm: 1.7928
+Epoch 6/15 | Batch 700/1762 | Loss: 2.4570 | Avg: 2.2918 | LR: 0.000500 | GradNorm: 1.4599
+Epoch 6/15 | Batch 800/1762 | Loss: 2.1931 | Avg: 2.2955 | LR: 0.000500 | GradNorm: 1.7376
+Epoch 6/15 | Batch 900/1762 | Loss: 2.4314 | Avg: 2.2983 | LR: 0.000500 | GradNorm: 1.7072
+Epoch 6/15 | Batch 1000/1762 | Loss: 2.2214 | Avg: 2.3010 | LR: 0.000500 | GradNorm: 1.2476
+Epoch 6/15 | Batch 1100/1762 | Loss: 2.3876 | Avg: 2.3016 | LR: 0.000500 | GradNorm: 2.8130
+Epoch 6/15 | Batch 1200/1762 | Loss: 2.2405 | Avg: 2.3036 | LR: 0.000500 | GradNorm: 1.3416
+Epoch 6/15 | Batch 1300/1762 | Loss: 2.3014 | Avg: 2.3048 | LR: 0.000500 | GradNorm: 1.5918
+Epoch 6/15 | Batch 1400/1762 | Loss: 2.2534 | Avg: 2.3065 | LR: 0.000500 | GradNorm: 1.2792
+Epoch 6/15 | Batch 1500/1762 | Loss: 2.3444 | Avg: 2.3081 | LR: 0.000500 | GradNorm: 3.9918
+Epoch 6/15 | Batch 1600/1762 | Loss: 2.3178 | Avg: 2.3088 | LR: 0.000500 | GradNorm: 1.2397
+Epoch 6/15 | Batch 1700/1762 | Loss: 2.3696 | Avg: 2.3096 | LR: 0.000500 | GradNorm: 1.5050
+
+============================================================
+Epoch 6/15 | Average Loss: 2.3099
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 7/15 | Batch 100/1762 | Loss: 2.1262 | Avg: 2.1810 | LR: 0.000500 | GradNorm: 1.2440
+Epoch 7/15 | Batch 200/1762 | Loss: 2.1745 | Avg: 2.1909 | LR: 0.000500 | GradNorm: 2.2671
+Epoch 7/15 | Batch 300/1762 | Loss: 2.2588 | Avg: 2.1969 | LR: 0.000500 | GradNorm: 1.8496
+Epoch 7/15 | Batch 400/1762 | Loss: 2.1099 | Avg: 2.1979 | LR: 0.000500 | GradNorm: 1.5109
+Epoch 7/15 | Batch 500/1762 | Loss: 2.1160 | Avg: 2.2033 | LR: 0.000500 | GradNorm: 1.2698
+Epoch 7/15 | Batch 600/1762 | Loss: 2.2403 | Avg: 2.2077 | LR: 0.000500 | GradNorm: 1.3314
+Epoch 7/15 | Batch 700/1762 | Loss: 2.1984 | Avg: 2.2093 | LR: 0.000500 | GradNorm: 1.9827
+Epoch 7/15 | Batch 800/1762 | Loss: 2.3440 | Avg: 2.2123 | LR: 0.000500 | GradNorm: 1.6016
+Epoch 7/15 | Batch 900/1762 | Loss: 2.1243 | Avg: 2.2141 | LR: 0.000500 | GradNorm: 1.2911
+Epoch 7/15 | Batch 1000/1762 | Loss: 2.1460 | Avg: 2.2173 | LR: 0.000500 | GradNorm: 1.2310
+Epoch 7/15 | Batch 1100/1762 | Loss: 2.2237 | Avg: 2.2197 | LR: 0.000500 | GradNorm: 1.2999
+Epoch 7/15 | Batch 1200/1762 | Loss: 2.1394 | Avg: 2.2224 | LR: 0.000500 | GradNorm: 1.1902
+Epoch 7/15 | Batch 1300/1762 | Loss: 2.1734 | Avg: 2.2255 | LR: 0.000500 | GradNorm: 1.5984
+Epoch 7/15 | Batch 1400/1762 | Loss: 2.2898 | Avg: 2.2290 | LR: 0.000500 | GradNorm: 3.7073
+Epoch 7/15 | Batch 1500/1762 | Loss: 2.2194 | Avg: 2.2303 | LR: 0.000500 | GradNorm: 1.4670
+Epoch 7/15 | Batch 1600/1762 | Loss: 2.2743 | Avg: 2.2334 | LR: 0.000500 | GradNorm: 1.3026
+Epoch 7/15 | Batch 1700/1762 | Loss: 2.2918 | Avg: 2.2353 | LR: 0.000500 | GradNorm: 2.2360
+
+============================================================
+Epoch 7/15 | Average Loss: 2.2359
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 8/15 | Batch 100/1762 | Loss: 2.1393 | Avg: 2.1182 | LR: 0.000500 | GradNorm: 1.3362
+Epoch 8/15 | Batch 200/1762 | Loss: 2.1367 | Avg: 2.1249 | LR: 0.000500 | GradNorm: 1.6156
+Epoch 8/15 | Batch 300/1762 | Loss: 2.0368 | Avg: 2.1316 | LR: 0.000500 | GradNorm: 1.2518
+Epoch 8/15 | Batch 400/1762 | Loss: 2.1629 | Avg: 2.1382 | LR: 0.000500 | GradNorm: 1.2062
+Epoch 8/15 | Batch 500/1762 | Loss: 2.0710 | Avg: 2.1429 | LR: 0.000500 | GradNorm: 1.6836
+Epoch 8/15 | Batch 600/1762 | Loss: 2.1414 | Avg: 2.1478 | LR: 0.000500 | GradNorm: 1.5211
+Epoch 8/15 | Batch 700/1762 | Loss: 2.2275 | Avg: 2.1507 | LR: 0.000500 | GradNorm: 1.5208
+Epoch 8/15 | Batch 800/1762 | Loss: 2.1407 | Avg: 2.1536 | LR: 0.000500 | GradNorm: 1.3766
+Epoch 8/15 | Batch 900/1762 | Loss: 2.1124 | Avg: 2.1565 | LR: 0.000500 | GradNorm: 1.3507
+Epoch 8/15 | Batch 1000/1762 | Loss: 2.2652 | Avg: 2.1591 | LR: 0.000500 | GradNorm: 1.9103
+Epoch 8/15 | Batch 1100/1762 | Loss: 2.2599 | Avg: 2.1617 | LR: 0.000500 | GradNorm: 1.8379
+Epoch 8/15 | Batch 1200/1762 | Loss: 2.3145 | Avg: 2.1630 | LR: 0.000500 | GradNorm: 1.7864
+Epoch 8/15 | Batch 1300/1762 | Loss: 2.0816 | Avg: 2.1654 | LR: 0.000500 | GradNorm: 1.2543
+Epoch 8/15 | Batch 1400/1762 | Loss: 2.0810 | Avg: 2.1686 | LR: 0.000500 | GradNorm: 1.2370
+Epoch 8/15 | Batch 1500/1762 | Loss: 2.1188 | Avg: 2.1704 | LR: 0.000500 | GradNorm: 1.5631
+Epoch 8/15 | Batch 1600/1762 | Loss: 2.2302 | Avg: 2.1729 | LR: 0.000500 | GradNorm: 1.4092
+Epoch 8/15 | Batch 1700/1762 | Loss: 2.1723 | Avg: 2.1745 | LR: 0.000500 | GradNorm: 1.3937
+
+============================================================
+Epoch 8/15 | Average Loss: 2.1756
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 9/15 | Batch 100/1762 | Loss: 2.0832 | Avg: 2.0685 | LR: 0.000500 | GradNorm: 1.2795
+Epoch 9/15 | Batch 200/1762 | Loss: 2.0881 | Avg: 2.0701 | LR: 0.000500 | GradNorm: 1.7900
+Epoch 9/15 | Batch 300/1762 | Loss: 2.0877 | Avg: 2.0748 | LR: 0.000500 | GradNorm: 1.2945
+Epoch 9/15 | Batch 400/1762 | Loss: 2.0002 | Avg: 2.0818 | LR: 0.000500 | GradNorm: 1.2902
+Epoch 9/15 | Batch 500/1762 | Loss: 2.0358 | Avg: 2.0844 | LR: 0.000500 | GradNorm: 1.9351
+Epoch 9/15 | Batch 600/1762 | Loss: 2.1056 | Avg: 2.0890 | LR: 0.000500 | GradNorm: 1.4302
+Epoch 9/15 | Batch 700/1762 | Loss: 2.1233 | Avg: 2.0936 | LR: 0.000500 | GradNorm: 2.3768
+Epoch 9/15 | Batch 800/1762 | Loss: 2.3928 | Avg: 2.0980 | LR: 0.000500 | GradNorm: 1.9566
+Epoch 9/15 | Batch 900/1762 | Loss: 2.1532 | Avg: 2.1019 | LR: 0.000500 | GradNorm: 1.6962
+Epoch 9/15 | Batch 1000/1762 | Loss: 2.1311 | Avg: 2.1044 | LR: 0.000500 | GradNorm: 1.4894
+Epoch 9/15 | Batch 1100/1762 | Loss: 2.1131 | Avg: 2.1077 | LR: 0.000500 | GradNorm: 1.2142
+Epoch 9/15 | Batch 1200/1762 | Loss: 2.0921 | Avg: 2.1112 | LR: 0.000500 | GradNorm: 2.0183
+Epoch 9/15 | Batch 1300/1762 | Loss: 2.0307 | Avg: 2.1138 | LR: 0.000500 | GradNorm: 1.2741
+Epoch 9/15 | Batch 1400/1762 | Loss: 2.1455 | Avg: 2.1169 | LR: 0.000500 | GradNorm: 1.4947
+Epoch 9/15 | Batch 1500/1762 | Loss: 2.1538 | Avg: 2.1194 | LR: 0.000500 | GradNorm: 1.4593
+Epoch 9/15 | Batch 1600/1762 | Loss: 2.1317 | Avg: 2.1219 | LR: 0.000500 | GradNorm: 1.4478
+Epoch 9/15 | Batch 1700/1762 | Loss: 2.1261 | Avg: 2.1248 | LR: 0.000500 | GradNorm: 1.7249
+
+============================================================
+Epoch 9/15 | Average Loss: 2.1264
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 10/15 | Batch 100/1762 | Loss: 2.0405 | Avg: 2.0185 | LR: 0.000500 | GradNorm: 1.3931
+Epoch 10/15 | Batch 200/1762 | Loss: 1.9900 | Avg: 2.0228 | LR: 0.000500 | GradNorm: 1.7461
+Epoch 10/15 | Batch 300/1762 | Loss: 2.1109 | Avg: 2.0284 | LR: 0.000500 | GradNorm: 2.0327
+Epoch 10/15 | Batch 400/1762 | Loss: 2.1149 | Avg: 2.0350 | LR: 0.000500 | GradNorm: 1.8713
+Epoch 10/15 | Batch 500/1762 | Loss: 1.9127 | Avg: 2.0401 | LR: 0.000500 | GradNorm: 1.1618
+Epoch 10/15 | Batch 600/1762 | Loss: 2.0111 | Avg: 2.0436 | LR: 0.000500 | GradNorm: 1.3944
+Epoch 10/15 | Batch 700/1762 | Loss: 2.1511 | Avg: 2.0493 | LR: 0.000500 | GradNorm: 1.6044
+Epoch 10/15 | Batch 800/1762 | Loss: 1.9658 | Avg: 2.0547 | LR: 0.000500 | GradNorm: 1.2293
+Epoch 10/15 | Batch 900/1762 | Loss: 2.0086 | Avg: 2.0594 | LR: 0.000500 | GradNorm: 1.2869
+Epoch 10/15 | Batch 1000/1762 | Loss: 2.0495 | Avg: 2.0624 | LR: 0.000500 | GradNorm: 1.4650
+Epoch 10/15 | Batch 1100/1762 | Loss: 2.0478 | Avg: 2.0643 | LR: 0.000500 | GradNorm: 1.2327
+Epoch 10/15 | Batch 1200/1762 | Loss: 2.1044 | Avg: 2.0673 | LR: 0.000500 | GradNorm: 1.1948
+Epoch 10/15 | Batch 1300/1762 | Loss: 2.0289 | Avg: 2.0705 | LR: 0.000500 | GradNorm: 2.2709
+Epoch 10/15 | Batch 1400/1762 | Loss: 2.1225 | Avg: 2.0732 | LR: 0.000500 | GradNorm: 2.0873
+Epoch 10/15 | Batch 1500/1762 | Loss: 2.0419 | Avg: 2.0764 | LR: 0.000500 | GradNorm: 1.4357
+Epoch 10/15 | Batch 1600/1762 | Loss: 2.1077 | Avg: 2.0789 | LR: 0.000500 | GradNorm: 2.9240
+Epoch 10/15 | Batch 1700/1762 | Loss: 2.1668 | Avg: 2.0818 | LR: 0.000500 | GradNorm: 1.6273
+
+============================================================
+Epoch 10/15 | Average Loss: 2.0834
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 11/15 | Batch 100/1762 | Loss: 1.9509 | Avg: 1.9872 | LR: 0.000500 | GradNorm: 1.2816
+Epoch 11/15 | Batch 200/1762 | Loss: 2.2075 | Avg: 1.9907 | LR: 0.000500 | GradNorm: 1.7111
+Epoch 11/15 | Batch 300/1762 | Loss: 1.9916 | Avg: 1.9927 | LR: 0.000500 | GradNorm: 1.6046
+Epoch 11/15 | Batch 400/1762 | Loss: 1.9782 | Avg: 1.9984 | LR: 0.000500 | GradNorm: 1.6576
+Epoch 11/15 | Batch 500/1762 | Loss: 1.9906 | Avg: 2.0017 | LR: 0.000500 | GradNorm: 1.4066
+Epoch 11/15 | Batch 600/1762 | Loss: 2.0052 | Avg: 2.0076 | LR: 0.000500 | GradNorm: 1.5486
+Epoch 11/15 | Batch 700/1762 | Loss: 1.9481 | Avg: 2.0118 | LR: 0.000500 | GradNorm: 1.3370
+Epoch 11/15 | Batch 800/1762 | Loss: 2.0733 | Avg: 2.0161 | LR: 0.000500 | GradNorm: 1.8307
+Epoch 11/15 | Batch 900/1762 | Loss: 2.1141 | Avg: 2.0202 | LR: 0.000500 | GradNorm: 1.4528
+Epoch 11/15 | Batch 1000/1762 | Loss: 2.1495 | Avg: 2.0243 | LR: 0.000500 | GradNorm: 1.4818
+Epoch 11/15 | Batch 1100/1762 | Loss: 2.1505 | Avg: 2.0273 | LR: 0.000500 | GradNorm: 1.7541
+Epoch 11/15 | Batch 1200/1762 | Loss: 2.0518 | Avg: 2.0299 | LR: 0.000500 | GradNorm: 1.5116
+Epoch 11/15 | Batch 1300/1762 | Loss: 1.9506 | Avg: 2.0333 | LR: 0.000500 | GradNorm: 1.3176
+Epoch 11/15 | Batch 1400/1762 | Loss: 2.0956 | Avg: 2.0369 | LR: 0.000500 | GradNorm: 1.4882
+Epoch 11/15 | Batch 1500/1762 | Loss: 2.0868 | Avg: 2.0401 | LR: 0.000500 | GradNorm: 1.4745
+Epoch 11/15 | Batch 1600/1762 | Loss: 2.0630 | Avg: 2.0430 | LR: 0.000500 | GradNorm: 1.8983
+Epoch 11/15 | Batch 1700/1762 | Loss: 2.0710 | Avg: 2.0456 | LR: 0.000500 | GradNorm: 1.2792
+
+============================================================
+Epoch 11/15 | Average Loss: 2.0469
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 12/15 | Batch 100/1762 | Loss: 1.9775 | Avg: 1.9507 | LR: 0.000500 | GradNorm: 2.3414
+Epoch 12/15 | Batch 200/1762 | Loss: 1.9804 | Avg: 1.9512 | LR: 0.000500 | GradNorm: 1.7671
+Epoch 12/15 | Batch 300/1762 | Loss: 1.9722 | Avg: 1.9580 | LR: 0.000500 | GradNorm: 1.3885
+Epoch 12/15 | Batch 400/1762 | Loss: 1.9720 | Avg: 1.9633 | LR: 0.000500 | GradNorm: 2.1136
+Epoch 12/15 | Batch 500/1762 | Loss: 1.9334 | Avg: 1.9688 | LR: 0.000500 | GradNorm: 1.2198
+Epoch 12/15 | Batch 600/1762 | Loss: 2.0373 | Avg: 1.9756 | LR: 0.000500 | GradNorm: 1.3544
+Epoch 12/15 | Batch 700/1762 | Loss: 2.0834 | Avg: 1.9798 | LR: 0.000500 | GradNorm: 2.4922
+Epoch 12/15 | Batch 800/1762 | Loss: 1.9443 | Avg: 1.9842 | LR: 0.000500 | GradNorm: 1.4017
+Epoch 12/15 | Batch 900/1762 | Loss: 2.0707 | Avg: 1.9882 | LR: 0.000500 | GradNorm: 1.4858
+Epoch 12/15 | Batch 1000/1762 | Loss: 2.0713 | Avg: 1.9921 | LR: 0.000500 | GradNorm: 1.5283
+Epoch 12/15 | Batch 1100/1762 | Loss: 2.0906 | Avg: 1.9953 | LR: 0.000500 | GradNorm: 1.4103
+Epoch 12/15 | Batch 1200/1762 | Loss: 2.0931 | Avg: 1.9982 | LR: 0.000500 | GradNorm: 1.6540
+Epoch 12/15 | Batch 1300/1762 | Loss: 2.0329 | Avg: 2.0013 | LR: 0.000500 | GradNorm: 1.3581
+Epoch 12/15 | Batch 1400/1762 | Loss: 2.0895 | Avg: 2.0032 | LR: 0.000500 | GradNorm: 1.2805
+Epoch 12/15 | Batch 1500/1762 | Loss: 2.0678 | Avg: 2.0060 | LR: 0.000500 | GradNorm: 1.5072
+Epoch 12/15 | Batch 1600/1762 | Loss: 2.0357 | Avg: 2.0087 | LR: 0.000500 | GradNorm: 2.3207
+Epoch 12/15 | Batch 1700/1762 | Loss: 1.9756 | Avg: 2.0113 | LR: 0.000500 | GradNorm: 1.3394
+
+============================================================
+Epoch 12/15 | Average Loss: 2.0129
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 13/15 | Batch 100/1762 | Loss: 1.9554 | Avg: 1.9181 | LR: 0.000500 | GradNorm: 1.4450
+Epoch 13/15 | Batch 200/1762 | Loss: 1.9386 | Avg: 1.9233 | LR: 0.000500 | GradNorm: 5.3590
+Epoch 13/15 | Batch 300/1762 | Loss: 1.9718 | Avg: 1.9284 | LR: 0.000500 | GradNorm: 1.4467
+Epoch 13/15 | Batch 400/1762 | Loss: 1.9315 | Avg: 1.9365 | LR: 0.000500 | GradNorm: 1.3844
+Epoch 13/15 | Batch 500/1762 | Loss: 1.9304 | Avg: 1.9423 | LR: 0.000500 | GradNorm: 1.3016
+Epoch 13/15 | Batch 600/1762 | Loss: 2.0280 | Avg: 1.9450 | LR: 0.000500 | GradNorm: 1.5018
+Epoch 13/15 | Batch 700/1762 | Loss: 2.0040 | Avg: 1.9487 | LR: 0.000500 | GradNorm: 1.1506
+Epoch 13/15 | Batch 800/1762 | Loss: 1.9580 | Avg: 1.9526 | LR: 0.000500 | GradNorm: 1.3513
+Epoch 13/15 | Batch 900/1762 | Loss: 1.9625 | Avg: 1.9570 | LR: 0.000500 | GradNorm: 1.3639
+Epoch 13/15 | Batch 1000/1762 | Loss: 2.0360 | Avg: 1.9605 | LR: 0.000500 | GradNorm: 1.4847
+Epoch 13/15 | Batch 1100/1762 | Loss: 2.0226 | Avg: 1.9638 | LR: 0.000500 | GradNorm: 1.2783
+Epoch 13/15 | Batch 1200/1762 | Loss: 1.9785 | Avg: 1.9683 | LR: 0.000500 | GradNorm: 1.2044
+Epoch 13/15 | Batch 1300/1762 | Loss: 1.9725 | Avg: 1.9713 | LR: 0.000500 | GradNorm: 1.4281
+Epoch 13/15 | Batch 1400/1762 | Loss: 2.1080 | Avg: 1.9743 | LR: 0.000500 | GradNorm: 1.5011
+Epoch 13/15 | Batch 1500/1762 | Loss: 2.0811 | Avg: 1.9773 | LR: 0.000500 | GradNorm: 1.6729
+Epoch 13/15 | Batch 1600/1762 | Loss: 2.0662 | Avg: 1.9802 | LR: 0.000500 | GradNorm: 1.4862
+Epoch 13/15 | Batch 1700/1762 | Loss: 1.9801 | Avg: 1.9825 | LR: 0.000500 | GradNorm: 1.4971
+
+============================================================
+Epoch 13/15 | Average Loss: 1.9839
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 14/15 | Batch 100/1762 | Loss: 1.8061 | Avg: 1.8977 | LR: 0.000500 | GradNorm: 1.6106
+Epoch 14/15 | Batch 200/1762 | Loss: 1.8734 | Avg: 1.9012 | LR: 0.000500 | GradNorm: 1.2003
+Epoch 14/15 | Batch 300/1762 | Loss: 1.8523 | Avg: 1.9107 | LR: 0.000500 | GradNorm: 2.0514
+Epoch 14/15 | Batch 400/1762 | Loss: 1.8759 | Avg: 1.9144 | LR: 0.000500 | GradNorm: 1.5243
+Epoch 14/15 | Batch 500/1762 | Loss: 2.0184 | Avg: 1.9184 | LR: 0.000500 | GradNorm: 4.5249
+Epoch 14/15 | Batch 600/1762 | Loss: 1.9535 | Avg: 1.9221 | LR: 0.000500 | GradNorm: 2.1729
+Epoch 14/15 | Batch 700/1762 | Loss: 1.9999 | Avg: 1.9256 | LR: 0.000500 | GradNorm: 1.7688
+Epoch 14/15 | Batch 800/1762 | Loss: 1.9705 | Avg: 1.9296 | LR: 0.000500 | GradNorm: 1.4294
+Epoch 14/15 | Batch 900/1762 | Loss: 1.9791 | Avg: 1.9326 | LR: 0.000500 | GradNorm: 1.7458
+Epoch 14/15 | Batch 1000/1762 | Loss: 1.9926 | Avg: 1.9359 | LR: 0.000500 | GradNorm: 1.3954
+Epoch 14/15 | Batch 1100/1762 | Loss: 2.0373 | Avg: 1.9395 | LR: 0.000500 | GradNorm: 1.3599
+Epoch 14/15 | Batch 1200/1762 | Loss: 1.8921 | Avg: 1.9419 | LR: 0.000500 | GradNorm: 1.1393
+Epoch 14/15 | Batch 1300/1762 | Loss: 2.0714 | Avg: 1.9451 | LR: 0.000500 | GradNorm: 1.3630
+Epoch 14/15 | Batch 1400/1762 | Loss: 2.0811 | Avg: 1.9482 | LR: 0.000500 | GradNorm: 1.4915
+Epoch 14/15 | Batch 1500/1762 | Loss: 1.8995 | Avg: 1.9509 | LR: 0.000500 | GradNorm: 1.2864
+Epoch 14/15 | Batch 1600/1762 | Loss: 1.9825 | Avg: 1.9532 | LR: 0.000500 | GradNorm: 1.1782
+Epoch 14/15 | Batch 1700/1762 | Loss: 2.0726 | Avg: 1.9557 | LR: 0.000500 | GradNorm: 1.3953
+
+============================================================
+Epoch 14/15 | Average Loss: 1.9567
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+Epoch 15/15 | Batch 100/1762 | Loss: 1.8396 | Avg: 1.8776 | LR: 0.000500 | GradNorm: 1.2644
+Epoch 15/15 | Batch 200/1762 | Loss: 1.8141 | Avg: 1.8840 | LR: 0.000500 | GradNorm: 1.3544
+Epoch 15/15 | Batch 300/1762 | Loss: 1.8502 | Avg: 1.8848 | LR: 0.000500 | GradNorm: 1.1845
+Epoch 15/15 | Batch 400/1762 | Loss: 1.9094 | Avg: 1.8876 | LR: 0.000500 | GradNorm: 1.3654
+Epoch 15/15 | Batch 500/1762 | Loss: 1.9571 | Avg: 1.8921 | LR: 0.000500 | GradNorm: 1.2209
+Epoch 15/15 | Batch 600/1762 | Loss: 1.9397 | Avg: 1.8967 | LR: 0.000500 | GradNorm: 1.3684
+Epoch 15/15 | Batch 700/1762 | Loss: 2.0242 | Avg: 1.9005 | LR: 0.000500 | GradNorm: 1.4652
+Epoch 15/15 | Batch 800/1762 | Loss: 1.8819 | Avg: 1.9036 | LR: 0.000500 | GradNorm: 1.2441
+Epoch 15/15 | Batch 900/1762 | Loss: 1.9065 | Avg: 1.9081 | LR: 0.000500 | GradNorm: 1.7415
+Epoch 15/15 | Batch 1000/1762 | Loss: 1.9338 | Avg: 1.9113 | LR: 0.000500 | GradNorm: 1.5896
+Epoch 15/15 | Batch 1100/1762 | Loss: 2.0473 | Avg: 1.9136 | LR: 0.000500 | GradNorm: 1.9944
+Epoch 15/15 | Batch 1200/1762 | Loss: 1.9342 | Avg: 1.9168 | LR: 0.000500 | GradNorm: 1.3012
+Epoch 15/15 | Batch 1300/1762 | Loss: 2.0291 | Avg: 1.9198 | LR: 0.000500 | GradNorm: 1.7664
+Epoch 15/15 | Batch 1400/1762 | Loss: 2.0216 | Avg: 1.9229 | LR: 0.000500 | GradNorm: 1.3652
+Epoch 15/15 | Batch 1500/1762 | Loss: 2.0387 | Avg: 1.9255 | LR: 0.000500 | GradNorm: 1.4915
+Epoch 15/15 | Batch 1600/1762 | Loss: 1.9330 | Avg: 1.9285 | LR: 0.000500 | GradNorm: 1.6567
+Epoch 15/15 | Batch 1700/1762 | Loss: 2.0469 | Avg: 1.9312 | LR: 0.000500 | GradNorm: 2.2839
+
+============================================================
+Epoch 15/15 | Average Loss: 1.9323
+best loss found so far.
+============================================================
+
+Checkpoint saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt
+
+
+Training completed!
+Best loss achieved: 1.9323
+Final model saved to C:\Users\User\OneDrive\Desktop\uu\core\transformer_model_final.pt

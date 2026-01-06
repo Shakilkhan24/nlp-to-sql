@@ -17,7 +17,7 @@ class InputEmbedding(nn.Module):
         return self.embedding(x)
 
 class PositionalEncoding(nn.Module):
-    def __init__(self, d_model, max_len=5000, dropout=0.1):
+    def __init__(self, d_model, max_len=128, dropout=0.1):
         super().__init__()
         self.dropout = nn.Dropout(p=dropout)
         pe = torch.zeros(max_len, d_model)
@@ -25,8 +25,7 @@ class PositionalEncoding(nn.Module):
         i = torch.arange(0, d_model, 2, dtype=torch.float)
         div_term = torch.pow(10000.0, i / d_model)
         pe[:, 0::2] = torch.sin(position / div_term)
-        pe[:, 1::2] = torch.cos(position / div_term)
-        # register as buffer, so that it can find the device 
+        pe[:, 1::2] = torch.cos(position / div_term) 
         self.register_buffer('pe', pe.unsqueeze(0))
 
     def forward(self, x):
@@ -40,21 +39,23 @@ class MultiHeadAttention(nn.Module):
         self.d_model = d_model
         self.num_heads = num_heads
         self.d_k = d_model // num_heads
-        self.W_q = nn.Linear(d_model, d_model)
-        self.W_k = nn.Linear(d_model, d_model)
-        self.W_v = nn.Linear(d_model, d_model)
-        self.W_o = nn.Linear(d_model, d_model)
+        self.w_q = nn.Linear(d_model, d_model)
+        self.w_k = nn.Linear(d_model, d_model)
+        self.w_v = nn.Linear(d_model, d_model)
+        self.w_o = nn.Linear(d_model, d_model)
         self.dropout = nn.Dropout(dropout)
 
-    def split_heads(self, x):
+    def into_multiheads(self, x):
         batch_size, seq_len, d_model = x.size()
         return x.view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
 
     def forward(self, query, key, value, mask=None):
         batch_size = query.size(0)
-        Q = self.split_heads(self.W_q(query))
-        K = self.split_heads(self.W_k(key))
-        V = self.split_heads(self.W_v(value))
+        
+        Q = self.into_multiheads(self.w_q(query))
+        K = self.into_multiheads(self.w_k(key))
+        V = self.into_multiheads(self.w_v(value))
+        
         scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(self.d_k)
         if mask is not None:
             scores = scores.masked_fill(mask == 0, -1e9)
@@ -62,7 +63,7 @@ class MultiHeadAttention(nn.Module):
         attention = self.dropout(attention)
         x = torch.matmul(attention, V)
         x = x.transpose(1, 2).contiguous().view(batch_size, -1, self.d_model)
-        return self.W_o(x)
+        return self.w_o(x)
 
 class MaskedMultiHeadAttention(nn.Module):
     def __init__(self, d_model, num_heads, dropout=0.1):
@@ -91,19 +92,19 @@ class AddAndNorm(nn.Module):
         self.norm = nn.LayerNorm(d_model)
         self.dropout = nn.Dropout(dropout)
 
-    def forward(self, x, prev_x):
-        return self.norm(x + prev_x)
+    def forward(self, x, sublayer_output):
+        return self.norm(x + self.dropout(sublayer_output))
 
 class EncoderLayer(nn.Module):
     def __init__(self, d_model, num_heads, d_ff, dropout=0.1):
         super().__init__()
-        self.self_attention = MultiHeadAttention(d_model, num_heads, dropout)
+        self.multi_attention = MultiHeadAttention(d_model, num_heads, dropout)
         self.feed_forward = FeedForward(d_model, d_ff, dropout)
         self.add_norm1 = AddAndNorm(d_model, dropout)
         self.add_norm2 = AddAndNorm(d_model, dropout)
 
     def forward(self, x, mask=None):
-        attn_output = self.self_attention(x, x, x, mask)
+        attn_output = self.multi_attention(x, x, x, mask)
         x = self.add_norm1(x, attn_output)
         ff_output = self.feed_forward(x)
         return self.add_norm2(x, ff_output)
@@ -111,7 +112,7 @@ class EncoderLayer(nn.Module):
 class DecoderLayer(nn.Module):
     def __init__(self, d_model, num_heads, d_ff, dropout=0.1):
         super().__init__()
-        self.masked_self_attention = MaskedMultiHeadAttention(d_model, num_heads, dropout)
+        self.masked_multi_attention = MaskedMultiHeadAttention(d_model, num_heads, dropout)
         self.cross_attention = MultiHeadAttention(d_model, num_heads, dropout)
         self.feed_forward = FeedForward(d_model, d_ff, dropout)
         self.add_norm1 = AddAndNorm(d_model, dropout)
@@ -119,7 +120,7 @@ class DecoderLayer(nn.Module):
         self.add_norm3 = AddAndNorm(d_model, dropout)
 
     def forward(self, x, encoder_output, src_mask=None, tgt_mask=None):
-        x = self.add_norm1(x, self.masked_self_attention(x, tgt_mask))
+        x = self.add_norm1(x, self.masked_multi_attention(x, tgt_mask))
         x = self.add_norm2(x, self.cross_attention(x, encoder_output, encoder_output, src_mask))
         return self.add_norm3(x, self.feed_forward(x))
 
@@ -140,7 +141,6 @@ class OutputSoftmax(nn.Module):
         return F.softmax(x, dim=self.dim)
 
 class Encoder(nn.Module):
-    """Stack of N encoder layers"""
     def __init__(self, num_layers, d_model, num_heads, d_ff, dropout=0.1):
         super().__init__()
         self.layers = nn.ModuleList([EncoderLayer(d_model, num_heads, d_ff, dropout) for _ in range(num_layers)])
@@ -151,7 +151,6 @@ class Encoder(nn.Module):
         return x
 
 class Decoder(nn.Module):
-    """Stack of N decoder layers"""
     def __init__(self, num_layers, d_model, num_heads, d_ff, dropout=0.1):
         super().__init__()
         self.layers = nn.ModuleList([DecoderLayer(d_model, num_heads, d_ff, dropout) for _ in range(num_layers)])

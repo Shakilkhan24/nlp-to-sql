@@ -1,6 +1,6 @@
 paths:
   train_data: MyTrials/train.json
-  checkpoint: transformer_model.pt
+  checkpoint: transformer_model_final.pt
 
 data:
   tokenizer_name: t5-small

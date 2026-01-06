@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            xyt6f1vwb6ij0l74afnkzbhvxjuz116a:
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 8
+                cpu_count_logical: 12
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "511097958400"
+                        used: "438664335360"
+                email: sk2448868@gmail.com
+                executable: C:\Users\User\Miniconda3\python.exe
+                git:
+                    commit: bd29c2d3601fb55fefad1b65215fab3fcf8c7106
+                    remote: https://github.com/Shakilkhan24/nlp-to-sql.git
+                gpu: NVIDIA GeForce RTX 4050 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 2560
+                      memoryTotal: "6439305216"
+                      name: NVIDIA GeForce RTX 4050 Laptop GPU
+                      uuid: GPU-48172be8-f515-8b66-a095-ee781cfea7d1
+                host: DESKTOP-G225Q5H
+                memory:
+                    total: "25463480320"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\User\OneDrive\Desktop\uu\core\train.py
+                python: CPython 3.13.9
+                root: C:\Users\User\OneDrive\Desktop\uu\core
+                startedAt: "2026-01-06T17:52:39.565774Z"
+                writerId: xyt6f1vwb6ij0l74afnkzbhvxjuz116a
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+            "2":
+                - 1
+                - 11
+                - 49
+            "3":
+                - 2
+                - 16
+            "4": 3.13.9
+            "5": 0.23.1
+            "6": 4.57.3
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+base_learning_rate:
+    value: 0.0005
+batch_size:
+    value: 32
+d_ff:
+    value: 1024
+d_model:
+    value: 256
+dataset_size:
+    value: 56353
+device:
+    value: cuda
+epochs:
+    value: 15
+grad_clip_norm:
+    value: 0.5
+label_smoothing:
+    value: 0.1
+max_len:
+    value: 128
+num_decoder_layers:
+    value: 6
+num_encoder_layers:
+    value: 6
+num_heads:
+    value: 8
+vocab_size:
+    value: 32000
+warmup_steps:
+    value: 1000
